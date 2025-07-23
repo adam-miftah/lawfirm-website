@@ -1,0 +1,6 @@
+# Mengizinkan semua mesin pencari untuk merayapi seluruh situs
+User-agent: *
+Allow: /
+
+# Arahkan ke sitemap Anda (ganti dengan URL asli saat website sudah online)
+Sitemap: https://lawfirmakb.com/sitemap.xml
