@@ -5,7 +5,6 @@ import Calendar from '../components/Calendar';
 import { articles } from '../data/articles.js';
 import ArticleMeta from '../components/ArticleMeta';
 import RecentArticles from '../components/RecentArticles';
-import CommentsSection from '../components/CommentsSection';
 import SEO from '../components/SEO';
 
 const ArticleDetailPage = () => {
