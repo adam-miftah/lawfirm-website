@@ -1,7 +1,7 @@
 # Website Resmi Law Firm AKB & CO
 
 <p align="center">
-  <img src="URL_LOGO_PERUSAHAAN_ANDA_JIKA_ADA" alt="Logo Law Firm AKB & CO" width="200"/>
+  <img src="https://i.ibb.co/s93KxbzD/logo.webp" alt="Logo Law Firm AKB & CO" width="200"/>
 </p>
 
 <p align="center">
@@ -66,8 +66,8 @@ Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-lan
 
 ### Prasyarat
 
-- **Node.js**: `v18.0` atau lebih baru.
-- **Package Manager**: `npm`, `yarn`, atau `pnpm`.
+- **Node.js**: `v22.17.0`.
+- **Package Manager**: `npm`.
 
 ### Instalasi
 
