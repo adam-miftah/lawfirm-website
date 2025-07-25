@@ -108,40 +108,6 @@ Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-lan
 
 ---
 
-## 📁 Struktur Proyek
-
-Struktur folder proyek ini mengikuti praktik terbaik untuk aplikasi React modern.
-
-`
-/
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── public/
-│   ├── favicon.ico
-│   ├── sitemap.xml
-│   └── robots.txt
-└── src/
-    ├── assets/
-    │   └── profile.png
-    ├── components/
-    │   ├── Header.jsx
-    │   └── Footer.jsx
-    ├── data/
-    │   ├── articles.js
-    │   └── services.js
-    ├── pages/
-    │   ├── HomePage.jsx
-    │   └── AboutPage.jsx
-    ├── App.jsx
-    ├── index.css
-    └── main.jsx
-`
-
-
----
-
 ## 🚀 Proses Deployment
 
 Proyek ini direkomendasikan untuk di-*deploy* menggunakan Vercel untuk alur kerja CI/CD yang mulus.
