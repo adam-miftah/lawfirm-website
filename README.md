@@ -1,129 +1,162 @@
-Website Resmi Law Firm AKB & CO
-Ini adalah repositori untuk kode sumber website resmi Law Firm Abdul Kodir Batubara & CO. Proyek ini dibangun sebagai Single Page Application (SPA) menggunakan React dan Vite, serta di-style dengan Tailwind CSS.
+# Website Resmi Law Firm AKB & CO
 
-Website ini berfungsi sebagai profil digital perusahaan, portofolio layanan, dan platform publikasi artikel hukum untuk meningkatkan visibilitas online dan menjangkau calon klien.
+<p align="center">
+  <img src="URL_LOGO_PERUSAHAAN_ANDA_JIKA_ADA" alt="Logo Law Firm AKB & CO" width="200"/>
+</p>
 
-Tautan Langsung
-Website Produksi: https://www.lawfirmakb.com
+<p align="center">
+  <strong>Profil digital modern untuk Law Firm Abdul Kodir Batubara & CO.</strong>
+  <br />
+  Dibangun dengan React, Vite, dan Tailwind CSS untuk performa dan SEO optimal.
+</p>
 
-Fitur Utama
-Sepenuhnya Responsif: Desain dioptimalkan untuk bekerja dengan baik di semua perangkat, dari ponsel hingga desktop.
+<p align="center">
+  <a href="https://www.lawfirmakb.com"><strong>Lihat Website »</strong></a>
+</p>
 
-Performa Cepat: Dibangun dengan fokus pada kecepatan muat tinggi, menggunakan teknik modern seperti lazy loading gambar, code splitting, dan aset yang dioptimalkan.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS">
+  <a href="https://vercel.com/adam-miftah/lawfirm-website"><img src="https://therealsujitk-vercel-badge.vercel.app/?app=lawfirm-website" alt="Vercel status"/></a>
+</p>
 
-SEO-Ready: Dilengkapi dengan fondasi SEO yang kuat, termasuk:
+---
 
-Metadata dinamis per halaman (<title>, <meta name="description">) menggunakan react-helmet-async.
+## 🏛️ Tentang Proyek
 
-sitemap.xml untuk membantu Google mengindeks semua halaman.
+Website **Law Firm AKB & CO** adalah sebuah *Single Page Application (SPA)* yang berfungsi sebagai profil digital perusahaan, portofolio layanan, dan platform publikasi artikel hukum. Proyek ini dirancang untuk meningkatkan visibilitas online firma, menjangkau calon klien melalui optimasi mesin pencari (SEO), dan menyajikan informasi dengan antarmuka yang cepat dan modern.
 
-robots.txt untuk memberikan instruksi pada crawler.
+Konten seperti artikel dan layanan dikelola secara statis di dalam kode untuk memastikan keamanan dan kecepatan, dengan pembaruan yang mudah dilakukan melalui proses *deployment* ulang.
 
-JSON-LD Schema Markup untuk Attorney dan LocalBusiness guna meningkatkan visibilitas di hasil pencarian.
+---
 
-Manajemen Konten Statis: Semua konten artikel, layanan, dan data lainnya dikelola secara terpusat di dalam folder src/data/, memungkinkan pembaruan konten yang mudah dengan melakukan deploy ulang.
+## ✨ Fitur Unggulan
 
-Routing Sisi Klien: Navigasi yang mulus dan instan antar halaman tanpa reload, ditangani oleh react-router-dom.
+- **🚀 Performa Cepat:** Dibangun dengan Vite dan React, memastikan waktu muat yang sangat cepat menggunakan teknik modern seperti *lazy loading* dan *code splitting*.
+- **📱 Desain Responsif:** Tampilan dioptimalkan untuk semua perangkat, dari ponsel hingga desktop, menggunakan Tailwind CSS.
+- **🔍 SEO-Ready:** Fondasi SEO yang kuat dengan *metadata* dinamis, `sitemap.xml`, `robots.txt`, dan *JSON-LD Schema Markup* untuk meningkatkan peringkat di hasil pencarian.
+- **🌐 Routing Sisi Klien:** Navigasi antar halaman yang mulus dan instan tanpa *reload*, ditangani oleh `react-router-dom`.
+- **✍️ Manajemen Konten Statis:** Konten yang mudah diperbarui oleh developer dengan mengubah data terpusat di folder `src/data/`.
+- **📍 Halaman Layanan Lokal:** Halaman yang ditargetkan secara spesifik untuk kata kunci SEO lokal di wilayah Jabodetabek.
 
-Halaman Layanan per Lokasi: Halaman-halaman yang dibuat khusus untuk menargetkan kata kunci SEO lokal di wilayah Jabodetabek.
+---
 
-Tumpukan Teknologi (Tech Stack)
-Framework: React.js (v18+)
+## 🛠️ Tumpukan Teknologi (Tech Stack)
 
-Build Tool: Vite
+Proyek ini dibangun menggunakan teknologi modern dan terpercaya:
 
-Styling: Tailwind CSS
+| Kategori | Teknologi |
+| :--- | :--- |
+| **Framework** | [React.js](https://reactjs.org/) (v22.17.0) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Routing** | [React Router DOM](https://reactrouter.com/) (v6) |
+| **Manajemen Head/SEO** | [React Helmet Async](https://github.com/staylor/react-helmet-async) |
+| **Library Ikon** | [React Icons](https://react-icons.github.io/react-icons/) |
+| **Animasi** | [Framer Motion](https://www.framer.com/motion/) |
+| **Deployment** | [Vercel](https://vercel.com/) (CI/CD) |
+| **Domain & DNS** | [Hostinger](https://www.hostinger.com/) |
 
-Routing: React Router DOM (v6)
+---
 
-Manajemen Head/SEO: React Helmet Async
+## 🚀 Memulai (Getting Started)
 
-Library Ikon: React Icons
+Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-langkah di bawah ini.
 
-Animasi (Carousel): Framer Motion
+### Prasyarat
 
-Hosting & Deployment:
+- **Node.js**: `v18.0` atau lebih baru.
+- **Package Manager**: `npm`, `yarn`, atau `pnpm`.
 
-Awalnya di-deploy di Hostinger (menggunakan .htaccess untuk routing).
+### Instalasi
 
-Kemudian dimigrasikan ke Vercel untuk alur kerja CI/CD.
+1.  **Kloning Repositori:**
+    ```sh
+    git clone [https://github.com/adam-miftah/lawfirm-website.git](https://github.com/adam-miftah/lawfirm-website.git)
+    cd lawfirm-website
+    ```
 
-Domain & DNS: Dikelola melalui Hostinger.
+2.  **Instal Dependensi:**
+    ```sh
+    npm install
+    ```
 
-Struktur Proyek
-Proyek ini mengikuti struktur folder standar untuk aplikasi React:
+3.  **Konfigurasi Variabel Lingkungan:**
+    Buat file `.env` di direktori utama dan salin konten dari `.env.example` (jika ada).
+    ```sh
+    cp .env.example .env
+    ```
+    Isi variabel yang diperlukan:
+    ```env
+    VITE_WHATSAPP_NUMBER=628111994484
+    VITE_EMAIL_ADDRESS=lawfirmakb@gmail.com
+    ```
+
+4.  **Jalankan Server Development:**
+    ```sh
+    npm run dev
+    ```
+    Aplikasi akan berjalan di `http://localhost:5173`.
+
+### Perintah Lainnya
+
+-   **Membuat Build untuk Produksi:**
+    ```sh
+    npm run build
+    ```
+    Hasilnya akan tersedia di dalam folder `dist/`.
+
+---
+
+## 📁 Struktur Proyek
+
+Struktur folder proyek ini mengikuti praktik terbaik untuk aplikasi React modern.
+
 
 /
-├── public/             # Aset statis seperti gambar, favicon, sitemap.xml
+├── public/             # Aset statis (favicon, sitemap.xml, robots.txt)
 ├── src/
-│   ├── assets/         # Aset yang diproses oleh Vite (font, gambar profil)
-│   ├── components/     # Komponen React yang bisa dipakai ulang (Header, Footer, SEO, dll.)
-│   ├── data/           # Data statis terpusat (articles.js, locationServices.js)
-│   ├── pages/          # Komponen yang mewakili satu halaman penuh (HomePage, AboutPage, dll.)
+│   ├── assets/         # Aset yang diproses Vite (font, gambar)
+│   ├── components/     # Komponen React yang dapat digunakan kembali
+│   ├── data/           # Data statis terpusat (artikel, layanan, dll.)
+│   ├── pages/          # Komponen yang mewakili halaman penuh
 │   ├── App.jsx         # Pengaturan routing utama
 │   ├── index.css       # File CSS global
-│   └── main.jsx        # Titik masuk utama aplikasi React
-├── .env                # Variabel lingkungan (tidak di-commit)
+│   └── main.jsx        # Titik masuk utama aplikasi
 ├── .gitignore
-├── index.html          # Template HTML utama
+├── index.html
 ├── package.json
 └── README.md
 
-Persiapan & Instalasi
-Untuk menjalankan proyek ini di lingkungan development lokal, ikuti langkah-langkah berikut.
 
-Prasyarat
-Node.js (v22.17.0 atau lebih baru direkomendasikan)
+---
 
-npm (atau package manager lain seperti pnpm/yarn)
+## 🚀 Proses Deployment
 
-1. Kloning Repositori
-git clone [URL_REPOSITORI_ANDA]
-cd lawfirm-web
+Proyek ini direkomendasikan untuk di-*deploy* menggunakan Vercel untuk alur kerja CI/CD yang mulus.
 
-2. Instal Dependensi
-npm install
+1.  Hubungkan repositori GitHub ini ke akun Vercel Anda.
+2.  Konfigurasikan variabel lingkungan di pengaturan proyek Vercel.
+3.  Setiap `git push` ke *branch* `main` akan secara otomatis memicu proses *build* dan *deployment* baru.
+4.  Atur DNS di Hostinger agar menunjuk ke server Vercel.
 
-3. Konfigurasi Variabel Lingkungan (.env)
-Buat file bernama .env di root direktori proyek dan tambahkan variabel yang diperlukan (jika ada).
+---
 
-# Contoh variabel
-VITE_WHATSAPP_NUMBER=628111994484
-VITE_EMAIL_ADDRESS=lawfirmakb@gmail.com
+## 🤝 Berkontribusi
 
-Menjalankan Proyek
-Menjalankan Server Development
-Di terminal, dari direktori root proyek:
+Kontribusi sangat kami hargai! Jika Anda memiliki ide untuk perbaikan atau menemukan bug, silakan buat *issue* atau *pull request*.
 
-npm run dev
+1.  **Fork** repositori ini.
+2.  Buat *branch* baru (`git checkout -b fitur/NamaFitur`).
+3.  *Commit* perubahan Anda (`git commit -m 'Menambahkan fitur X'`).
+4.  *Push* ke *branch* Anda (`git push origin fitur/NamaFitur`).
+5.  Buat **Pull Request** baru.
 
-Aplikasi React akan berjalan di http://localhost:5173.
+---
 
-Membuat Build untuk Produksi
-Untuk membuat versi produksi yang dioptimalkan:
+## 📧 Kontak
 
-npm run build
+Adam Miftahul Falah – [adammiftah196@gmail.com](mailto:adammiftah196@gmail.com)
 
-Hasilnya akan tersedia di dalam folder dist/, yang siap untuk diunggah ke penyedia hosting.
-
-Mengelola Konten
-Semua konten artikel, layanan per lokasi, dan data lainnya dikelola secara statis di dalam folder src/data/. Setiap perubahan pada file-file di folder ini memerlukan proses build dan deploy ulang agar bisa tampil di website yang sudah online.
-
-Proses Deployment
-Proyek ini dikonfigurasi untuk dua metode deployment:
-
-Manual (ke cPanel/Hostinger):
-
-Jalankan npm run build.
-
-Unggah isi dari folder dist/ ke public_html di server hosting.
-
-Pastikan file .htaccess yang sesuai untuk SPA React sudah ada di public_html.
-
-Otomatis (CI/CD dengan Vercel - Direkomendasikan):
-
-Hubungkan repositori GitHub ini ke akun Vercel.
-
-Setiap git push ke branch main akan secara otomatis memicu proses build dan deployment baru.
-
-Atur DNS di Hostinger agar menunjuk ke server Vercel.
+Tautan Proyek: [https://github.com/adam-miftah/lawfirm-website](https://github.com/adam-miftah/lawfirm-website)
