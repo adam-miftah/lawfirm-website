@@ -112,7 +112,7 @@ Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-lan
 
 Struktur folder proyek ini mengikuti praktik terbaik untuk aplikasi React modern.
 
-\`\`\`
+`
 /
 ├── .gitignore
 ├── index.html
@@ -137,7 +137,7 @@ Struktur folder proyek ini mengikuti praktik terbaik untuk aplikasi React modern
     ├── App.jsx
     ├── index.css
     └── main.jsx
-\`\`\`
+`
 
 
 ---
