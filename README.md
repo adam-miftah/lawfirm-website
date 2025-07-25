@@ -112,21 +112,32 @@ Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-lan
 
 Struktur folder proyek ini mengikuti praktik terbaik untuk aplikasi React modern.
 
-
+\`\`\`
 /
-├── public/             # Aset statis (favicon, sitemap.xml, robots.txt)
-├── src/
-│   ├── assets/         # Aset yang diproses Vite (font, gambar)
-│   ├── components/     # Komponen React yang dapat digunakan kembali
-│   ├── data/           # Data statis terpusat (artikel, layanan, dll.)
-│   ├── pages/          # Komponen yang mewakili halaman penuh
-│   ├── App.jsx         # Pengaturan routing utama
-│   ├── index.css       # File CSS global
-│   └── main.jsx        # Titik masuk utama aplikasi
 ├── .gitignore
 ├── index.html
 ├── package.json
-└── README.md
+├── README.md
+├── public/
+│   ├── favicon.ico
+│   ├── sitemap.xml
+│   └── robots.txt
+└── src/
+    ├── assets/
+    │   └── profile.png
+    ├── components/
+    │   ├── Header.jsx
+    │   └── Footer.jsx
+    ├── data/
+    │   ├── articles.js
+    │   └── services.js
+    ├── pages/
+    │   ├── HomePage.jsx
+    │   └── AboutPage.jsx
+    ├── App.jsx
+    ├── index.css
+    └── main.jsx
+\`\`\`
 
 
 ---
