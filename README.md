@@ -55,8 +55,7 @@ Proyek ini dibangun menggunakan teknologi modern dan terpercaya:
 | **Manajemen Head/SEO** | [React Helmet Async](https://github.com/staylor/react-helmet-async) |
 | **Library Ikon** | [React Icons](https://react-icons.github.io/react-icons/) |
 | **Animasi** | [Framer Motion](https://www.framer.com/motion/) |
-| **Deployment** | [Vercel](https://vercel.com/) (CI/CD) |
-| **Domain & DNS** | [Hostinger](https://www.hostinger.com/) |
+| **Deployment** | [Hostinger](https://www.hostinger.com/) 
 
 ---
 
