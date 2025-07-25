@@ -1,7 +1,5 @@
 Website Resmi Law Firm AKB & CO
-
 Ini adalah repositori untuk kode sumber website resmi Law Firm Abdul Kodir Batubara & CO. Proyek ini dibangun sebagai Single Page Application (SPA) menggunakan React dan Vite, serta di-style dengan Tailwind CSS.
-
 
 Website ini berfungsi sebagai profil digital perusahaan, portofolio layanan, dan platform publikasi artikel hukum untuk meningkatkan visibilitas online dan menjangkau calon klien.
 
@@ -54,7 +52,6 @@ Domain & DNS: Dikelola melalui Hostinger.
 
 Struktur Proyek
 Proyek ini mengikuti struktur folder standar untuk aplikasi React:
-
 
 /
 ├── public/             # Aset statis seperti gambar, favicon, sitemap.xml
